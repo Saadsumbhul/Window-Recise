@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;   
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right:30px;
+    
+}
+.socialIcons ul{
+    display: flex;
+}
+.socialIcons li{
+    margin-right: 10px;
+    list-style-type: none;
+  
+}
+.logo img{
+    margin-top: 3%;
+}
+#icons i{
+    color: dodgerblue;
+}
